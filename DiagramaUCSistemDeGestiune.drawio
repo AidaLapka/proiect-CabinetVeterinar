@@ -1,0 +1,244 @@
+<mxfile host="Electron">
+  <diagram name="Diagrama Cazuri de Utilizare - Sistem de Gestiune" id="DiagramaUCSistemDeGestiune_Estetic">
+    <mxGraphModel dx="2010" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2050" pageHeight="647" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_banner" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#212529;strokeWidth=1.8;fontFamily=Helvetica;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="DIAGRAMA CAZURILOR DE UTILIZARE &amp;ndash; PROCESE AUTOMATE ALE SISTEMULUI (ACTOR: SISTEM DE GESTIUNE)" vertex="1">
+          <mxGeometry height="42" width="1970" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_left" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="462" width="900" x="40" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_right" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="462" width="900" x="1110" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_left" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="SUBSISTEMUL 1: TRANZACȚIONAL &amp;amp; OPERAȚIUNI AUTOMATE DE STOC / FACTURARE" vertex="1">
+          <mxGeometry height="30" width="880" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_stk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11.5;fontStyle=1;align=center;" value="Gestionare automată a stocurilor" vertex="1">
+          <mxGeometry height="54" width="230" x="680" y="211" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_cmd" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Recepționare comandă aprovizionare" vertex="1">
+          <mxGeometry height="38" width="185" x="60" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_cmd" edge="1" parent="1" source="trig_cmd" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.958" y="16" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trig_out" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Înregistrare ieșire din stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="60" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_out" edge="1" parent="1" source="trig_out" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-1" y="6" as="geometry">
+            <mxPoint x="-5" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trig_cns" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Înregistrare consum medical" vertex="1">
+          <mxGeometry height="38" width="185" x="60" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_cns" edge="1" parent="1" source="trig_cns" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.9602" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_stk_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Actualizare stoc la recepție comenzi" vertex="1">
+          <mxGeometry height="38" width="190" x="460" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_stk_sys_stk_1" edge="1" parent="1" source="sys_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_stk_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Scădere stoc la consum medical" vertex="1">
+          <mxGeometry height="38" width="190" x="260" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_stk_sys_stk_2" edge="1" parent="1" source="sys_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8266" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_stk_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Actualizare stoc la ieșiri admin" vertex="1">
+          <mxGeometry height="38" width="190" x="460" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_stk_sys_stk_3" edge="1" parent="1" source="sys_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_stk_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Verificare automată prag minim" vertex="1">
+          <mxGeometry height="38" width="190" x="260" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_stk_sys_stk_4" edge="1" parent="1" source="sys_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9123" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_stk_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Generare alerte automate stoc redus" vertex="1">
+          <mxGeometry height="38" width="190" x="460" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_stk_sys_stk_5" edge="1" parent="1" source="sys_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_stk_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_fct" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11.5;fontStyle=1;align=center;" value="Gestionare automată facturi și plăți" vertex="1">
+          <mxGeometry height="54" width="230" x="680" y="357" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_fct" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Creare / Modificare factură" vertex="1">
+          <mxGeometry height="38" width="185" x="60" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_fct" edge="1" parent="1" source="trig_fct" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_fct" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.9709" y="11" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="trig_plt" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Înregistrare plată client" vertex="1">
+          <mxGeometry height="38" width="185" x="60" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_plt" edge="1" parent="1" source="trig_plt" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_fct" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.8826" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_fct_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Calculare automată total factură" vertex="1">
+          <mxGeometry height="38" width="190" x="460" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_fct_sys_fct_1" edge="1" parent="1" source="sys_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_fct_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_fct_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Calculare automată sold neachitat" vertex="1">
+          <mxGeometry height="38" width="190" x="260" y="338" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_fct_sys_fct_2" edge="1" parent="1" source="sys_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_fct_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9715" y="-13" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_fct_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Actualizare situație după plată" vertex="1">
+          <mxGeometry height="38" width="190" x="460" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_fct_sys_fct_3" edge="1" parent="1" source="sys_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_fct_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.2065" y="17" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdr_right" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="SUBSISTEMUL 2: MODEL PREDICTIV ML &amp;amp; SERVICIUL DE NOTIFICĂRI AUTOMATE" vertex="1">
+          <mxGeometry height="30" width="880" x="1120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11.5;fontStyle=1;align=center;" value="Generare automată a predicțiilor" vertex="1">
+          <mxGeometry height="54" width="230" x="1130" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Extragere date istorice din BD" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_1" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Curățare și prelucrare date" vertex="1">
+          <mxGeometry height="38" width="190" x="1600" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_2" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=#ffffff;" target="sys_prd_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Eliminare date incomplete / eronate" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_3" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Grupare programări pe perioade" vertex="1">
+          <mxGeometry height="38" width="190" x="1600" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_4" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8307" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_prd_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Pregătire date antrenare/test" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_5" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Antrenare model regresie liniară" vertex="1">
+          <mxGeometry height="38" width="190" x="1600" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_6" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9153" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_prd_7" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Generare predicții viitoare" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_7" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_7" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_prd_8" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Calculare indicatori evaluare" vertex="1">
+          <mxGeometry height="38" width="190" x="1600" y="302" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_8" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_8" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8587" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_prd_9" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Salvare predicții și metrici în BD" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_prd_sys_prd_9" edge="1" parent="1" source="sys_prd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd_9" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_prd" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Consultare predicții programări" vertex="1">
+          <mxGeometry height="38" width="185" x="1810" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_prd" edge="1" parent="1" source="trig_prd" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_prd" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.9222" y="18" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_not" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11.5;fontStyle=1;align=center;" value="Gestionare notificări automate" vertex="1">
+          <mxGeometry height="54" width="230" x="1130" y="445" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_not_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Generare notificare stoc minim" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_not_sys_not_1" edge="1" parent="1" source="sys_not" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_not_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sys_not_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Generare notificare programări" vertex="1">
+          <mxGeometry height="38" width="190" x="1600" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_not_sys_not_2" edge="1" parent="1" source="sys_not" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_not_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8923" y="11" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sys_not_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Transmitere notificări proprietari" vertex="1">
+          <mxGeometry height="38" width="190" x="1390" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_sys_not_sys_not_3" edge="1" parent="1" source="sys_not" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_not_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_auto" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;;fillColor=#f8f9fa;fontStyle=2;" value="Atingere prag minim / Dată programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1810" y="426" as="geometry" />
+        </mxCell>
+        <mxCell id="trig_e_trig_auto" edge="1" parent="1" source="trig_auto" style="endArrow=open;endSize=7;dashed=1;html=1;rounded=1;strokeColor=#000000;strokeWidth=1.4;fontFamily=Helvetica;fontSize=9;fontStyle=2;fontColor=#000000;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="sys_not" value="&amp;lt;&amp;lt;declanșează&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="-0.9499" y="-9" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="actor_sys" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontStyle=1;" value="&lt;b&gt;Sistem de Gestiune&lt;/b&gt;&lt;br&gt;&lt;i&gt;(procese automate)&lt;/i&gt;" vertex="1">
+          <mxGeometry height="110" width="60" x="995" y="226" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_sys_stk" edge="1" parent="1" source="actor_sys" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="sys_stk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_sys_fct" edge="1" parent="1" source="actor_sys" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="sys_fct">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_sys_prd" edge="1" parent="1" source="actor_sys" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="sys_prd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_sys_not" edge="1" parent="1" source="actor_sys" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="sys_not">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

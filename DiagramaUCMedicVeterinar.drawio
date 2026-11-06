@@ -1,0 +1,422 @@
+<mxfile host="Electron">
+  <diagram name="Diagrama Cazuri de Utilizare - Medic Veterinar" id="DiagramaUCMedicVeterinar_Estetic">
+    <mxGraphModel dx="1211" dy="718" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2050" pageHeight="1015" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_banner" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#212529;strokeWidth=1.8;fontFamily=Helvetica;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="DIAGRAMA CAZURILOR DE UTILIZARE &amp;ndash; SUBSISTEMUL ASISTENȚĂ MEDICALĂ &amp;amp; TRATAMENTE (ROL: MEDIC VETERINAR)" vertex="1">
+          <mxGeometry height="42" width="1970" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_left" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="830" width="900" x="40" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_right" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="830" width="900" x="1110" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_left" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="MODULUL 1: PROCEDURI MEDICALE, DIAGNOSTICE &amp;amp; TERAPIE (EXCLUSIV)" vertex="1">
+          <mxGeometry height="30" width="880" x="50" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="med_cns" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare consultații" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="208" as="geometry" />
+        </mxCell>
+        <mxCell id="med_cns_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Inițiere consultație" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_1" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_cns_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare simptome" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_2" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8084" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_cns_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Observații clinice" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_3" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_cns_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Actualizare greutate animal" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_4" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8773" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_cns_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Recomandări medicale" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_5" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_cns_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare controlată" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="256" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_cns_med_cns_6" edge="1" parent="1" source="med_cns" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_cns_6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8194" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_diag" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare diagnostice" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="med_diag_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Selectare diagnostic" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_diag_med_diag_1" edge="1" parent="1" source="med_diag" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_diag_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_diag_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare diagnostic nou" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_diag_med_diag_2" edge="1" parent="1" source="med_diag" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_diag_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8578" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_diag_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Asociere diagnostic" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_diag_med_diag_3" edge="1" parent="1" source="med_diag" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_diag_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_diag_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Asociere diagnostice multiple" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="366" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_diag_med_diag_4" edge="1" parent="1" source="med_diag" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_diag_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8638" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_trat" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare tratamente" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="med_trat_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare tratament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_trat_med_trat_1" edge="1" parent="1" source="med_trat" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_trat_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_trat_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dată început tratament" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_trat_med_trat_2" edge="1" parent="1" source="med_trat" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_trat_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8578" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_trat_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dată sfârșit tratament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_trat_med_trat_3" edge="1" parent="1" source="med_trat" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_trat_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_trat_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Indicații terapeutice" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="476" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_trat_med_trat_4" edge="1" parent="1" source="med_trat" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_trat_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8638" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_vac" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare vaccinări" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="med_vac_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare vaccinare" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_vac_med_vac_1" edge="1" parent="1" source="med_vac" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_vac_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_vac_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dată administrare vaccin" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="542" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_vac_med_vac_2" edge="1" parent="1" source="med_vac" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_vac_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8578" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_vac_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dată recomandată reapel" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="586" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_vac_med_vac_3" edge="1" parent="1" source="med_vac" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_vac_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_srv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare servicii medicale" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="med_srv_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Asociere serviciu la consultație" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="652" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_srv_med_srv_1" edge="1" parent="1" source="med_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_srv_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_srv_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare procedură efectuată" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="652" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_srv_med_srv_2" edge="1" parent="1" source="med_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_srv_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8578" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_srv_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare servicii prestate" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="696" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_srv_med_srv_3" edge="1" parent="1" source="med_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_srv_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_med" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare medicamente clinic" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="802" as="geometry" />
+        </mxCell>
+        <mxCell id="med_med_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Prescriere tratament domiciliu" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_1" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_med_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Administrare în cabinet" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_2" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8116" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_med_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Doză administrată" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="806" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_3" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_med_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Frecvență administrare" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="806" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_4" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8772" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_med_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Durată tratament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_5" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_med_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare consum medical" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_med_med_med_6" edge="1" parent="1" source="med_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_med_6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8236" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdr_right" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="MODULUL 2: EVIDENȚĂ PACIENȚI, ISTORIC, PROGRAMĂRI &amp;amp; STATISTICI MEDICALE" vertex="1">
+          <mxGeometry height="30" width="880" x="1120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="med_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Autentificare și deconectare" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="med_auth_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Autentificare în aplicație" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_auth_med_auth_1" edge="1" parent="1" source="med_auth" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_auth_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_auth_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Deconectare din aplicație" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_auth_med_auth_2" edge="1" parent="1" source="med_auth" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_auth_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9166" y="8" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_anim" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare fișă animal" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="med_anim_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Căutare animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_anim_med_anim_1" edge="1" parent="1" source="med_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_anim_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_anim_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Date identificare animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="236" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_anim_med_anim_2" edge="1" parent="1" source="med_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_anim_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8921" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_anim_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Date proprietar animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_anim_med_anim_3" edge="1" parent="1" source="med_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_anim_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_ist" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare istoric medical" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="med_ist_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare consultații anterioare" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_ist_med_ist_1" edge="1" parent="1" source="med_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_ist_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_ist_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare diagnostice" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="346" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_ist_med_ist_2" edge="1" parent="1" source="med_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_ist_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8921" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_ist_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare tratamente" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_ist_med_ist_3" edge="1" parent="1" source="med_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_ist_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_ist_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare vaccinări anterioare" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_ist_med_ist_4" edge="1" parent="1" source="med_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_ist_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9002" y="5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_prog" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare programări proprii" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="med_prog_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare calendar propriu" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_prog_med_prog_1" edge="1" parent="1" source="med_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_prog_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_prog_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare programări" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="456" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_prog_med_prog_2" edge="1" parent="1" source="med_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_prog_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8921" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_prog_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Actualizare stare programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_prog_med_prog_3" edge="1" parent="1" source="med_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_prog_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_mstk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare medicamente și stocuri" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="584" as="geometry" />
+        </mxCell>
+        <mxCell id="med_mstk_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Căutare medicament" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_mstk_med_mstk_1" edge="1" parent="1" source="med_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_mstk_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_mstk_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare detalii" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="566" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_mstk_med_mstk_2" edge="1" parent="1" source="med_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_mstk_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8921" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_mstk_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Verificare disponibilitate stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_mstk_med_mstk_3" edge="1" parent="1" source="med_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_mstk_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_csrv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare servicii și tarife" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="673" as="geometry" />
+        </mxCell>
+        <mxCell id="med_csrv_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Vizualizare servicii disponibile" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_csrv_med_csrv_1" edge="1" parent="1" source="med_csrv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_csrv_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_csrv_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare tarife" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="676" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_csrv_med_csrv_2" edge="1" parent="1" source="med_csrv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_csrv_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.916" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_rap" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Consultare rapoarte medicale" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="762" as="geometry" />
+        </mxCell>
+        <mxCell id="med_rap_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Număr consultații proprii" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_rap_med_rap_1" edge="1" parent="1" source="med_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_rap_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="med_rap_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Diagnostice frecvente" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_rap_med_rap_2" edge="1" parent="1" source="med_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_rap_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8912" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="med_rap_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#007FFF);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#66FFFF);" value="Servicii medicale prestate" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="788" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_med_rap_med_rap_3" edge="1" parent="1" source="med_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="med_rap_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_medic" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontStyle=1;" value="&lt;b&gt;Medic Veterinar&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="60" x="995" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_cns" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_cns">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_diag" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_diag">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_trat" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_trat">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_vac" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_vac">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_srv" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_srv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_med" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_med">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_auth" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_anim" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_anim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_ist" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_ist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_prog" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_prog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_mstk" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_mstk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_csrv" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_csrv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_med_rap" edge="1" parent="1" source="actor_medic" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="med_rap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

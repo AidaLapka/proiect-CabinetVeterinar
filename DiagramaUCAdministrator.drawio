@@ -1,0 +1,577 @@
+<mxfile host="Electron">
+  <diagram name="Diagrama Cazuri de Utilizare - Administrator" id="DiagramaUCAdministrator_Estetic">
+    <mxGraphModel dx="2010" dy="1192" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2050" pageHeight="1245" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title_banner" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f1f3f5;strokeColor=#212529;strokeWidth=1.8;fontFamily=Helvetica;fontSize=15;fontStyle=1;align=center;verticalAlign=middle;" value="DIAGRAMA CAZURILOR DE UTILIZARE – SUBSISTEMUL ADMINISTRATIV &amp;amp; MANAGEMENT (ROL: ADMINISTRATOR)" vertex="1">
+          <mxGeometry height="42" width="1970" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_left" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="1060" width="900" x="40" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="bnd_right" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;verticalAlign=top;spacingTop=12;" value="" vertex="1">
+          <mxGeometry height="1060" width="900" x="1110" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="hdr_left" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="MODULUL 1: APROVIZIONARE, STOCURI, SERVICII &amp;amp; GESTIUNE FINANCIARĂ" vertex="1">
+          <mxGeometry height="30" width="880" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_furn" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare furnizori" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="186" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_furn_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare furnizor" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_furn_adm_furn_1" edge="1" parent="1" source="adm_furn" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_furn_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_furn_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare date furnizor" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_furn_adm_furn_2" edge="1" parent="1" source="adm_furn" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_furn_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.856" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_furn_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dezactivare furnizor" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="212" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_furn_adm_furn_3" edge="1" parent="1" source="adm_furn" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_furn_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmd" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare comenzi aprovizionare" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="316" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmd_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Creare comandă aprovizionare" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_1" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmd_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare produse" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="276" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_2" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8147" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_cmd_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare cantități" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_3" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmd_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare stare" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_4" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8772" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_cmd_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Recepționare comandă" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_5" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmd_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Anulare comandă" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="364" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_cmd_adm_cmd_6" edge="1" parent="1" source="adm_cmd" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmd_6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8208" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_med" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare medicamente" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="446" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_med_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare medicament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_med_adm_med_1" edge="1" parent="1" source="adm_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_med_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_med_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare medicament" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_med_adm_med_2" edge="1" parent="1" source="adm_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_med_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.856" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_med_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dezactivare medicament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="472" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_med_adm_med_3" edge="1" parent="1" source="adm_med" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_med_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_stk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare stocuri" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="554" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_stk_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare intrare stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_stk_adm_stk_1" edge="1" parent="1" source="adm_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_stk_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_stk_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare ieșire stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="536" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_stk_adm_stk_2" edge="1" parent="1" source="adm_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_stk_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8552" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_stk_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Corectare cantitate stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_stk_adm_stk_3" edge="1" parent="1" source="adm_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_stk_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_stk_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Consultare situație stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_stk_adm_stk_4" edge="1" parent="1" source="adm_stk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_stk_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8624" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_c_mstk" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#333333,#006600);" value="Consultare medicamente și stocuri" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmstk_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Căutare medicament" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_mstk_adm_cmstk_1" edge="1" parent="1" source="adm_c_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmstk_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_cmstk_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare detalii" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="644" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_mstk_adm_cmstk_2" edge="1" parent="1" source="adm_c_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmstk_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8574" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_cmstk_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Disponibilitate în stoc" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_mstk_adm_cmstk_3" edge="1" parent="1" source="adm_c_mstk" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_cmstk_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_srv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare servicii" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_srv_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare serviciu" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_srv_adm_srv_1" edge="1" parent="1" source="adm_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_srv_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_srv_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare serviciu" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="752" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_srv_adm_srv_2" edge="1" parent="1" source="adm_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_srv_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8578" y="-7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_srv_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Activare serviciu" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_srv_adm_srv_3" edge="1" parent="1" source="adm_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_srv_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_srv_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dezactivare serviciu" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="796" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_srv_adm_srv_4" edge="1" parent="1" source="adm_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_srv_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8638" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_c_srv" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#333333,#006600);" value="Consultare servicii și tarife" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="857" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_csrv_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare servicii" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_srv_adm_csrv_1" edge="1" parent="1" source="adm_c_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_csrv_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_csrv_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Consultare tarife" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_srv_adm_csrv_2" edge="1" parent="1" source="adm_c_srv" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_csrv_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8769" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_fct" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare facturi" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="944" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_fct_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Creare factură" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="926" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_fct_adm_fct_1" edge="1" parent="1" source="adm_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_fct_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_fct_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Adăugare poziții factură" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="926" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_fct_adm_fct_2" edge="1" parent="1" source="adm_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_fct_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8574" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_fct_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare poziții factură" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_fct_adm_fct_3" edge="1" parent="1" source="adm_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_fct_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_fct_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Consultare factură" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_fct_adm_fct_4" edge="1" parent="1" source="adm_fct" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_fct_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8624" y="-4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_plt" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare plăți" vertex="1">
+          <mxGeometry height="52" width="220" x="700" y="1052" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_plt_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare plată" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="1034" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_plt_adm_plt_1" edge="1" parent="1" source="adm_plt" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_plt_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_plt_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Consultare plăți" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="1034" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_plt_adm_plt_2" edge="1" parent="1" source="adm_plt" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_plt_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8574" y="-6" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_plt_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Urmărire plăți parțiale" vertex="1">
+          <mxGeometry height="38" width="185" x="480" y="1078" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_plt_adm_plt_3" edge="1" parent="1" source="adm_plt" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_plt_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_plt_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Consultare sold neachitat" vertex="1">
+          <mxGeometry height="38" width="185" x="270" y="1078" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_plt_adm_plt_4" edge="1" parent="1" source="adm_plt" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_plt_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8631" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hdr_right" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;strokeColor=#495057;strokeWidth=1.5;fontFamily=Helvetica;fontSize=12;fontStyle=1;align=center;verticalAlign=middle;" value="MODULUL 2: PERSONAL, CLIENȚI, PROGRAMĂRI &amp;amp; RAPORTARE / ANALITICĂ" vertex="1">
+          <mxGeometry height="30" width="880" x="1120" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_auth" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;labelBorderColor=none;textShadow=0;strokeColor=light-dark(#000000,#006600);fontColor=light-dark(#000000,#006600);" value="Autentificare și deconectare" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_auth_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Autentificare în aplicație" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_auth_adm_auth_1" edge="1" parent="1" source="adm_auth" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_auth_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_auth_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Deconectare din aplicație" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_auth_adm_auth_2" edge="1" parent="1" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.916" y="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1349.997743037569" y="192.10776220253518" as="sourcePoint" />
+            <mxPoint x="1590.1596461709125" y="189.88629279483342" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_usr" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare utilizatori" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_usr_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Creare cont utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_1" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_1" value="&lt;span&gt;&amp;lt;&amp;lt;include&amp;gt;&amp;gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_usr_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare date utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="234" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_2" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8465" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_usr_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Activare cont utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_3" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_usr_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Dezactivare cont utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="278" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_4" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9163" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_usr_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Atribuire rol utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_5" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_usr_6" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare rol utilizator" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_usr_adm_usr_6" edge="1" parent="1" source="adm_usr" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_usr_6" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8566" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_prop" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Gestionare proprietari" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="383" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_prop_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Înregistrare proprietar" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prop_adm_prop_1" edge="1" parent="1" source="adm_prop" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prop_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_prop_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Modificare date proprietar" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="386" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prop_adm_prop_2" edge="1" parent="1" source="adm_prop" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prop_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.916" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_anim" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#006600);" value="Gestionare animale" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_anim_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Înregistrare animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_anim_adm_anim_1" edge="1" parent="1" source="adm_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_anim_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_anim_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Asociere cu proprietar" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="452" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_anim_adm_anim_2" edge="1" parent="1" source="adm_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_anim_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8949" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_anim_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Căutare animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_anim_adm_anim_3" edge="1" parent="1" source="adm_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_anim_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_anim_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Consultare fișă animal" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="496" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_anim_adm_anim_4" edge="1" parent="1" source="adm_anim" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_anim_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9016" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_prog" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#006600);" value="Gestionare programări cabinet" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_prog_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Creare programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prog_adm_prog_1" edge="1" parent="1" source="adm_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prog_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_prog_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Modificare programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prog_adm_prog_2" edge="1" parent="1" source="adm_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prog_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8433" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_prog_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Anulare programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prog_adm_prog_3" edge="1" parent="1" source="adm_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prog_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_prog_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Calendar programări" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prog_adm_prog_4" edge="1" parent="1" source="adm_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prog_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9163" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_prog_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Actualizare stare programare" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_prog_adm_prog_5" edge="1" parent="1" source="adm_prog" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_prog_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_ist" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#000000,#006600);" value="Consultare istoric medical" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_ist_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare consultații" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_ist_adm_ist_1" edge="1" parent="1" source="adm_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_ist_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_ist_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare diagnostice" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="712" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_ist_adm_ist_2" edge="1" parent="1" source="adm_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_ist_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8139" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_ist_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare tratamente" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_ist_adm_ist_3" edge="1" parent="1" source="adm_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_ist_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_ist_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#000000,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare vaccinări" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="756" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_ist_adm_ist_4" edge="1" parent="1" source="adm_ist" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_ist_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9016" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_rap" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;" value="Generare rapoarte administrative" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_rap_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Raport financiar" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_rap_adm_rap_1" edge="1" parent="1" source="adm_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_rap_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_rap_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Raport încasări" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_rap_adm_rap_2" edge="1" parent="1" source="adm_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_rap_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8433" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_rap_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Raport sume neachitate" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_rap_adm_rap_3" edge="1" parent="1" source="adm_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_rap_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_rap_4" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Raport stocuri" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_rap_adm_rap_4" edge="1" parent="1" source="adm_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_rap_4" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.9165" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_rap_5" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#333333;strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;" value="Raport intrări/ieșiri" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="908" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_rap_adm_rap_5" edge="1" parent="1" source="adm_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_rap_5" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_c_rap" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=2;fontFamily=Helvetica;fontSize=11;fontStyle=1;align=center;fontColor=light-dark(#333333,#006600);" value="Consultare rapoarte activitate" vertex="1">
+          <mxGeometry height="52" width="220" x="1130" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_crap_1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare număr programări" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="972" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_rap_adm_crap_1" edge="1" parent="1" source="adm_c_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_crap_1" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="adm_crap_2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Vizualizare număr consultații" vertex="1">
+          <mxGeometry height="38" width="185" x="1590" y="972" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_rap_adm_crap_2" edge="1" parent="1" source="adm_c_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_crap_2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" x="0.8949" y="7" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="adm_crap_3" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=light-dark(#333333,#006600);strokeWidth=1;fontFamily=Helvetica;fontSize=9.5;fontStyle=0;align=center;fontColor=light-dark(#000000,#00FF00);" value="Activitate pe perioadă" vertex="1">
+          <mxGeometry height="38" width="185" x="1380" y="1016" as="geometry" />
+        </mxCell>
+        <mxCell id="inc_adm_c_rap_adm_crap_3" edge="1" parent="1" source="adm_c_rap" style="endArrow=open;endSize=6;dashed=1;html=1;rounded=0;strokeColor=#555555;strokeWidth=1;fontFamily=Helvetica;fontSize=8.5;fontColor=#555555;align=center;verticalAlign=bottom;labelBackgroundColor=default;defaultLabelBackgroundColor=page;" target="adm_crap_3" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="actor_admin" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontStyle=1;" value="&lt;b&gt;Administrator&lt;/b&gt;" vertex="1">
+          <mxGeometry height="110" width="60" x="995" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_furn" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_furn">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_cmd" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_cmd">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_med" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_med">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_stk" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_stk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_c_mstk" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_c_mstk">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_srv" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_srv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_c_srv" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_c_srv">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_fct" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_fct">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_plt" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_plt">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_auth" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_auth">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_usr" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_usr">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_prop" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_prop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_anim" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_anim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_prog" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_prog">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_ist" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_ist">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_rap" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_rap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="assoc_adm_c_rap" edge="1" parent="1" source="actor_admin" style="endArrow=none;html=1;rounded=0;strokeColor=#000000;strokeWidth=1.5;" target="adm_c_rap">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wWhcxJZiWIcvByBVWatU-1" edge="1" parent="1" source="adm_usr_1" style="edgeStyle=orthogonalEdgeStyle;shape=taperedArrow;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;defaultLabelBackgroundColor=page;" target="adm_usr_1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
